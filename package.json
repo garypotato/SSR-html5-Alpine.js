@@ -1,0 +1,15 @@
+{
+  "name": "ssr-alpine-app",
+  "version": "1.0.0",
+  "description": "Simple SSR app with Alpine.js",
+  "main": "api/index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "echo 'Build complete'"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@vercel/node": "^3.0.0"
+  }
+}
